@@ -1,53 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tap Toybox – Data Deletion</title>
+<title>Data Deletion – Tap Toybox</title>
 <style>
-  :root { --bg:#ffffff; --text:#1f2328; --muted:#5b636e; --accent:#7F77DD; --line:#e5e7eb; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#111111; --text:#ececec; --muted:#a3a3a3; --accent:#9d97ea; --line:#2a2a2a; }
-  }
-  body { margin:0; background:var(--bg); color:var(--text);
-         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.6; }
-  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
-  h1 { font-size:28px; margin:0 0 4px; }
-  h2 { font-size:19px; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
-  .muted { color:var(--muted); font-size:14px; }
-  a { color:var(--accent); }
-  ol, ul { padding-left:22px; }
-  li { margin:6px 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #1f1f1f; background: #fff; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  .meta { color: #666; font-size: 14px; }
+  a { color: #1a5fb4; }
+  li { margin: 4px 0; }
+  @media (prefers-color-scheme: dark) { body { background: #121212; color: #e8e8e8; } .meta { color: #aaa; } a { color: #7fb2ff; } }
 </style>
 </head>
 <body>
-<main>
 <h1>Data Deletion – Tap Toybox</h1>
-<p class="muted">App: Tap Toybox (com.mohamad.minigames) · Developer: Hamoroj · Last updated: October 3, 2026</p>
+<p class="meta">App: Tap Toybox (com.mohamad.minigames) · Developer: Hamoroj · Last updated: October 4, 2026</p>
 
-<p>Tap Toybox has no accounts and never asks for your name, email, or phone number. This page explains how to delete the data related to your use of the App.</p>
+<p>Tap Toybox has no email or password accounts and never asks for your email or phone number. For the leaderboards, the App uses an anonymous player ID together with the nickname, avatar, and scores you see in the Profile screen. This page explains how to delete the data related to your use of the App.</p>
 
-<h2>Step 1 – Delete your game data on your device</h2>
-<p>Your progress (level, coins, scores, settings) is stored only on your device.</p>
+<h2>Step 1 – Delete your leaderboard profile</h2>
+<p>Uninstalling the App does not remove your leaderboard entry by itself. To delete it:</p>
+<ol>
+  <li>Open the App and tap your avatar at the top of the home screen to open your <strong>Profile</strong>.</li>
+  <li>Note your <strong>nickname</strong> and the <strong>player ID</strong> shown at the bottom of the screen (it starts with "ID:").</li>
+  <li>Send them by email to <a href="mailto:fishandsharkgame@gmail.com?subject=Data%20deletion%20%E2%80%93%20Tap%20Toybox">fishandsharkgame@gmail.com</a> with the subject <strong>"Data deletion – Tap Toybox"</strong>.</li>
+</ol>
+<p>We will delete your profile (nickname, avatar, XP, best scores, and weekly leaderboard entries) within 30 days and confirm by email. If you no longer have the App, send your nickname and we will do our best to find your profile.</p>
+
+<h2>Step 2 – Delete your game data on your device</h2>
+<p>Your progress (level, coins, scores, settings) is stored on your device.</p>
 <ol>
   <li>Open your phone's <strong>Settings › Apps › Tap Toybox › Storage</strong> and tap <strong>Clear data</strong>, or</li>
   <li>Uninstall the App. This deletes all game data on the device and stops all further data collection.</li>
 </ol>
 
-<h2>Step 2 – Reset your Advertising ID</h2>
+<h2>Step 3 – Reset your Advertising ID</h2>
 <p>In your Android settings (Settings › Privacy › Ads, or Settings › Google › Ads), choose <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong>. This disconnects your device from previously collected advertising and attribution data.</p>
-
-<h2>Step 3 – Request deletion by email</h2>
-<p>Send an email to <a href="mailto:fishandsharkgame@gmail.com?subject=Data%20deletion%20%E2%80%93%20Tap%20Toybox">fishandsharkgame@gmail.com</a> with the subject <strong>"Data deletion – Tap Toybox"</strong>. We will reply within 30 days and delete any data we hold that can be linked to you.</p>
 
 <h2>What is deleted and what is kept</h2>
 <ul>
-  <li><strong>Deleted:</strong> game progress on your device (Step 1); analytics data that can be linked to your device, on request (Step 3).</li>
+  <li><strong>Deleted on request:</strong> your leaderboard profile (Step 1) and analytics data that can be linked to your device.</li>
+  <li><strong>Deleted by you:</strong> game progress on your device (Step 2).</li>
   <li><strong>Automatically deleted:</strong> usage data in Firebase Analytics (games played, scores, time spent, levels, device and country information) is deleted automatically after at most 14 months.</li>
   <li><strong>Kept by third parties:</strong> data processed by Google AdMob and Tenjin is retained according to their own policies (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.tenjin.com/privacy/">Tenjin</a>).</li>
 </ul>
 
 <p>See also our <a href="https://hamoroj-games.github.io/privacy-policy.html">Privacy Policy</a>.</p>
-</main>
 </body>
 </html>

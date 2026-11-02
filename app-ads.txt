@@ -167,3 +167,6 @@ xandr.com, 17779, RESELLER
 xandr.com, 7353, RESELLER
 zetaglobal.net, 525, RESELLER
 zmaticoo.com, 5135195, RESELLER
+
+# Meta Audience Network
+facebook.com, 4537019913109853, DIRECT, c3e20eee3f780d68
